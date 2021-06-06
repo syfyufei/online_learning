@@ -1,0 +1,170 @@
+---
+title: 'Online Vocational learning: Meeting 1'
+subtitle: "Research Proposal"
+author: "Yufei Sun"
+institute: "Political Science, Tsinghua University"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: 
+      - zh-CN_custom.css
+      - styles.css
+    mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML"
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      highlightSpans: true
+      countIncrementalSlides: false
+      ratio: 21:9
+---
+## Outline
+
+- 原有研究设计的问题
+
+- 研究问题：语言如何影响新老市民的身份认同？
+
+- 现有研究：语言(口音) $\rightarrow$ 身份认同
+
+- 研究设计：匹配实验和内隐实验
+
+---
+class: inverse, center, middle
+
+# 原有研究设计的问题
+
+---
+
+## 原有研究设计的问题
+
+- 原有思路
+
+职业教育现代化 $\rightarrow$ 教育信息化改革 $\rightarrow$ 在线教育
+
+- 问题
+
+1. 局限于职业教育，没有凸显出研究问题的重要性；
+
+1. 研究问题过于抽象和宏观，Puzzle不突出，没有凸显出研究问题的迫切性；
+
+- 建议
+
+1. 着眼于更加宏大的理论问题，提升研究问题的重要性；
+
+1. 落脚于更加微观的研究问题，提升实证研究的可行性；
+
+1. .navy[把职业教育的在线教育作为整体教育在线教育的一个特例，把整体教育在线教育当作整体教育的一个特例，看在线教育如何改变整体教育的某一个方式。]
+
+---
+
+## 研究元素
+
+- 研究主题
+  - 职业教育
+    - 高等教育的一个案例（特殊性）
+  - 在线教育（国外研究）
+    - 和传统教育互动方式的对比
+    - 传统教育要素的改变（班额等）
+  
+- 研究方法
+  - 问卷 + 实验 = 列举实验、随机刺激
+
+---
+
+## 现有关于在线教育的研究
+
+- 和传统线下教育的对比（更多的是做实地试验）
+
+- 技术对传统教育方式的改变
+
+---
+
+## 备选研究问题
+
+- 在线教育中的教师呈现（互动方式）
+- 技术机遇还是技术鸿沟在线教育对教育不平等的影响
+- 主动的更主动，被动的更被动：在线教育效果和学习主动性之间的关系
+- 在线教育中的性别中的性别鸿沟
+
+········
+
+---
+
+## XXX:教师呈现对在线教育效果的影响 —— 基于调查实验的实证证据
+
+- 为什么选择思政课？
+  - 思政课的重要性：在职业教育领域的特殊性（又红又“专”？）
+  - 被试的广泛性：所有学生的必修课
+  - 和政治学理论有关系：政治宣传/政治吸纳
+  - 天然困境：如何讲好思政课很重要
+  
+- 为什么选择教师呈现?
+  - 在线教育特有的问题，线下教育没有：开不开摄像头？/ppt还是摄像头？
+  - 理论争议: 教师呈现 $\rightarrow$ 教学效果: 
+  
+  社会临场感的视角 $\uparrow$;认知负荷的视角 $\downarrow$ ; 注意的视角 $\uparrow$ ; 学习者偏好的视角 $\downarrow$ $\uparrow$
+
+- 思政课 + 教师呈现: 如何利用在线方式讲好思政课
+  - 进可以联系政治学关注的问题：技术如何改变国家的濡化能力
+  - 退可以以思政课为例研究教学方式对在线教育效果的影响
+
+---
+
+## 研究问题
+
+- 教师呈现方式对思政课效果的影响
+
+- 教学模式对思政课效果的影响
+
+- 效果 = 学习效果 + 政治认同 + 政治威慑（Huang, 2014）
+
+
+---
+
+## 研究设计
+
+- 前测
+  - 基本问题
+  - 教学知识前测
+  - 政治认同前测
+  - 政治威慑前测
+
+- 刺激
+  - m * n组
+  - m = 教师呈现方式的种类
+  - n = 内容形式的种类
+
+- 后测
+  - 教学知识前测
+  - 政治认同前测
+  - 政治威慑前测
+
+---
+
+## More
+
+- 可以一起进行的内容
+  - 用列举实验看高职学生对思政课的偏好程度
+  
+## 研究工具
+- 问卷星：随机套随机
+
+## 研究进度控制
+
+- 6.8 实验设计/文献梳理
+- 6.9 实验材料准备/文献梳理完成
+- 6.10 预调查/文献综述部分撰写
+- 6.11-6.15 正式数据收集/分析脚本撰写/文献综述部分完成
+
+
+---
+
+class: inverse, center, middle
+
+# 蟹蟹
+
+[sunyf20@mails.tsinghua.edu.cn](mailto:sunyf20@mails.tsinghua.edu.cn) 
+
+[Github: syfyufei](https://syfyufei.github.io/)
+
+[Yufei Sun: github.com/syfyufei](https://github.com/syfyufei)
