@@ -1,0 +1,62 @@
+---
+title: "Research Note"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+
+if (!require(pacman)) install.packages("pacman")
+
+library(pacman)
+p_load(
+    dotwhisker,
+    interplot,
+    grid,
+    gridExtra,
+    gt,
+    modelsummary,
+    summarytools,
+    # Visualization
+    lubridate,
+    MASS, #negative binormial
+    # Applied
+    knitr,
+    # dependency
+    arm,
+    car,
+    haven,
+    scales,
+    tidyverse
+)
+
+set.seed(19970921)
+```
+
+This is a notebook recording the decisions for the project cooperated with CMOE.
+
+# Data source
+
+ppt
+
+出镜
+
+体态
+
+宣传（思政课程1）
+
+知识（思政课程2）
+
+实践（职业教育课程思政）
+
+课程思政和思政课程
+
+授课式宣传和宣传式授课
+
+政治知识
+
+知识储备、政治认同和政治反抗
+
+刺激
+
+后测
