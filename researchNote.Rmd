@@ -37,6 +37,25 @@ This is a notebook recording the decisions for the project cooperated with CMOE.
 
 # Data source
 
+# Experimental design
+
+## Research question
+
+- **哪些因素影响了在线思政课的效果**
+  - 教师呈现（不呈现、呈现和深度呈现）如何影响在线思政课的效果
+  - 教学模式（知识导向、宣传导向和实践导向/课程思政）如何影响在线思政课的效果
+  - 效果：知识习得、政治认同(Peter Kenez,1989; Brady, 2008;Daniel C. Lynch,1999)、维稳能力感知(Wang,2015)
+
+## 刺激
+
+
+
+## 后测
+
+- 知识习得
+- 政治认同（直接测量/list）
+- 维稳能力感知（直接测量/list）
+
 ppt
 
 出镜
