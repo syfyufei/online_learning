@@ -1,0 +1,94 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames*,x11names*}{xcolor}
+%
+\documentclass[
+  12pt,
+]{ctexart}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={教育式宣传与宣传式教育：政治宣传效果的整合性框架},
+  pdfauthor={孙宇飞; 汤霓},
+  colorlinks=true,
+  linkcolor=Maroon,
+  filecolor=Maroon,
+  citecolor=Blue,
+  urlcolor=Blue,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage[margin=1in]{geometry}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+\usepackage{makecell}
+\ifluatex
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+
+\title{教育式宣传与宣传式教育：政治宣传效果的整合性框架}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{基于思政课教学的实验研究}
+\author{孙宇飞\footnote{清华大学政治学系博士生，联系电话：18638750921，邮箱：\href{mailto:sunyf20@mails.tsinghua.edu.cn}{\nolinkurl{sunyf20@mails.tsinghua.edu.cn}}} \and 汤霓\footnote{教育部职业技术教育中心研究所助理研究员，联系电话：15001918603，邮箱：\href{mailto:tangni510@163.com}{\nolinkurl{tangni510@163.com}}}}
+\date{}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+政治宣传是政府维持统治合法性和提升公众支持的重要手段之一，现有研究从``灌输机制''和``信号机制''解释政治宣传对公众态度和行为的影响，但少有研究探究两个机制之间的联系。思想政治教育课程是中国政治宣传的重要方式，是落实立德树人根本任务的关键，如何讲好思政课是一个亟待解决的时代命题。本文使用在中国开展在线调查实验获得的独特数据集，结合析因实验设计和回归分析检验了灌输理论的说服机制和信号理论的能力感知之间的关系。笔者发现，以思政课为代表的``硬宣传''在传递威慑信号之外，还具有一种说服的``软效应''。即它不仅能够使公众感受到国家维护社会稳定的强大能力，从而降低自己的抗争意愿；还能够使公众感受到国家拥有提供公共服务和促进国家认同的软实力，从而通过说服机制，增强对国家的支持。笔者提出了一个具有整合性的政治宣传影响框架。在此基础上，笔者基于内容和形式两个视角，从认同增强、能力感知和思政课喜好三个维度探索了影响思政课宣传效果的因素。笔者发现，和学生专业实践相结合的课程内容能够显著的提升受试学生的思想政治课宣传效果，但宣传内容和思政课的教师呈现方式对不同维度的国家能力感知没有显著的影响，即近年来国家倡导的``课程思政''这一``宣传式教育''的教学效果要好于传统的``教育式宣传''类型的``思政课程''。
+
+\textbf{关键词}：政治宣传；析因实验；信号机制；国家能力。
+\end{abstract}
+
+
+
+\end{document}

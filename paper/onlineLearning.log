@@ -1,21 +1,21 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.7.5)  5 JUL 2021 22:29
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.7.23)  6 AUG 2021 11:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **onlineLearning.tex
 (./onlineLearning.tex
 LaTeX2e <2021-06-01> patch level 1
-L3 programming layer <2021-06-18> (/Users/sunyufei/Library/TinyTeX/texmf-dist/t
+L3 programming layer <2021-07-12> (/Users/sunyufei/Library/TinyTeX/texmf-dist/t
 ex/latex/ctex/ctexart.cls
 (/Users/sunyufei/Library/TinyTeX/texmf-dist/tex/latex/ctex/config/ctexbackend.c
 fg
 File: ctexbackend.cfg 2021/06/20 v2.5.7 Backend configuration file (CTEX)
 ) (/Users/sunyufei/Library/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2021-06-18 L3 programming layer (loader) 
+Package: expl3 2021-07-12 L3 programming layer (loader) 
 
 (/Users/sunyufei/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-xetex
 .def
-File: l3backend-xetex.def 2021-05-07 L3 backend support: XeTeX
+File: l3backend-xetex.def 2021-07-12 L3 backend support: XeTeX
 (|extractbb --version)
 \c__kernel_sys_dvipdfmx_version_int=\count178
 \l__color_backend_stack_int=\count179
@@ -1042,10 +1042,10 @@ Package rerunfilecheck Info: File `onlineLearning.out' has not changed.
 (rerunfilecheck)             Checksum: FAB92998B0C5A2155286215D7268DFD4;1777.
  ) 
 Here is how much of TeX's memory you used:
- 20530 strings out of 478451
- 413887 string characters out of 5857705
- 878571 words of memory out of 5000000
- 40541 multiletter control sequences out of 15000+600000
+ 20531 strings out of 478475
+ 413891 string characters out of 5858192
+ 876051 words of memory out of 5000000
+ 40518 multiletter control sequences out of 15000+600000
  412628 words of font info for 106 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  90i,11n,120p,995b,537s stack positions out of 5000i,500n,10000p,200000b,80000s

@@ -27,7 +27,8 @@ p_load(misreport,
        kableExtra,
        psych,
        MASS,
-       list)
+       list,
+       regioncode)
 set.seed(19970921)
 # Theme setup
 theme_set(theme_minimal())
@@ -82,14 +83,14 @@ ppt
 
 ```{R, eval = FALSE}
 
-experiment_part1 <- read.csv("data/experimental_data.csv") %>% 
+experiment_part1 <- read.csv("data/new_experimental_data.csv") %>% 
   dplyr::select(-matches("^序号|时间|来源|总分|户|标题|验证码"))
 names(experiment_part1) <- c("IP", "university_name", "university_area", "gender", "political_status", "university_status", "university_rank", "major", "grade", "GPA", "YoB", "university_like", "dialect_ability", "video_type")
 experiment_part1$IP <- str_replace_all(experiment_part1$IP, "\\((.*?)\\)", "")
 
-experimentA <- read.csv("data/experimentA.csv") %>% 
+experimentA <- read.csv("data/new_experimentA.csv") %>% 
   dplyr::select(-matches("^Q16|17|18|19|20|有偿|微信|答卷编号|时间|状态|用户|浏览器|来源|单位|姓名|证件号|操作系统|答题时长|邮件|在线"))
-experimentB <- read.csv("data/experimentB.csv") %>% 
+experimentB <- read.csv("data/new_experimentB.csv") %>% 
   dplyr::select(-matches("^Q17|18|19|20|21|有偿|微信|答卷编号|时间|状态|用户|浏览器|来源|单位|姓名|证件号|操作系统|答题时长|邮件|在线"))
 
 names(experimentA) <- c("IP", "same_civics", "same_newswire", "same_major", "sameas", "knowledge1", "knowledge2", "knowledge3", "knowledge4", "knowledge5", "like_civics", "list_Government_satisfaction", "list_Government_trust", "SA_certification", "SA_coercive", "SA_enrich", "SA_draw", "SA_command", "SA_rules", "SA_redistribution", "comments_video", "comments_civics", "num_civics", "direct_Government_satisfaction", "direct_Government_trust", "direct_FM_trust")
@@ -191,7 +192,34 @@ for (video in data$video_type) {
 data <- data %>% 
   dplyr::rename(same_Handon = same_major)
 
+n <- 1
 
-qsave(data, "data/paperdata.qs")
+for(city in 1:length(data$university_area)){
+  data$city_name[n] <-  strsplit(data$university_area[n],split='-')[[1]][2]
+  print(n)
+  n = n + 1
+}
+
+data$city_name <- regioncode(data_input = data$city_name, 
+           convert_to = "name",
+           year_from = 2019,
+           year_to = 2019,
+           incomplete_name = "from")
+
+data$city_code <- regioncode(data_input = data$city_name, 
+           convert_to = "code",
+           year_from = 2019,
+           year_to = 2019)
+
+
+Chinese_dialect_distance <- read_csv("data/CH_pref_diadist.csv") %>% 
+  dplyr::filter(Pref_2 == "北京市") %>% 
+  dplyr::select(-Pref_2, -PrefCode_2) %>% 
+  dplyr::rename(city_name = Pref_1, city_code = PrefCode_1)
+
+data <- data %>% 
+  dplyr::left_join(Chinese_dialect_distance)
+
+qsave(data, "data/new_paperdata.qs")
 
 ```
