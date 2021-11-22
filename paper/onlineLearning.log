@@ -1,21 +1,21 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.7.23)  6 AUG 2021 11:16
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.25)  30 OCT 2021 19:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **onlineLearning.tex
 (./onlineLearning.tex
 LaTeX2e <2021-06-01> patch level 1
-L3 programming layer <2021-07-12> (/Users/sunyufei/Library/TinyTeX/texmf-dist/t
+L3 programming layer <2021-10-18> (/Users/sunyufei/Library/TinyTeX/texmf-dist/t
 ex/latex/ctex/ctexart.cls
 (/Users/sunyufei/Library/TinyTeX/texmf-dist/tex/latex/ctex/config/ctexbackend.c
 fg
 File: ctexbackend.cfg 2021/06/20 v2.5.7 Backend configuration file (CTEX)
 ) (/Users/sunyufei/Library/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2021-07-12 L3 programming layer (loader) 
+Package: expl3 2021-10-18 L3 programming layer (loader) 
 
 (/Users/sunyufei/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-xetex
 .def
-File: l3backend-xetex.def 2021-07-12 L3 backend support: XeTeX
+File: l3backend-xetex.def 2021-10-18 L3 backend support: XeTeX
 (|extractbb --version)
 \c__kernel_sys_dvipdfmx_version_int=\count178
 \l__color_backend_stack_int=\count179
@@ -31,11 +31,11 @@ EX)
 
 (/Users/sunyufei/Library/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xparse.
 sty
-Package: xparse 2021-06-18 L3 Experimental document command parser
+Package: xparse 2021-08-27 L3 Experimental document command parser
 )
 (/Users/sunyufei/Library/TinyTeX/texmf-dist/tex/latex/l3packages/l3keys2e/l3key
 s2e.sty
-Package: l3keys2e 2021-06-18 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2021-08-27 LaTeX2e option processing using LaTeX3 keys
 ) (/Users/sunyufei/Library/TinyTeX/texmf-dist/tex/latex/ctex/ctexhook.sty
 Package: ctexhook 2021/06/20 v2.5.7 Document and package hooks (CTEX)
 ) (/Users/sunyufei/Library/TinyTeX/texmf-dist/tex/latex/ctex/ctexpatch.sty
@@ -78,7 +78,7 @@ Package: xeCJK 2021/06/20 v3.8.7 Typesetting CJK scripts with XeLaTeX
 
 (/Users/sunyufei/Library/TinyTeX/texmf-dist/tex/latex/l3packages/xtemplate/xtem
 plate.sty
-Package: xtemplate 2021-06-18 L3 Experimental prototype document functions
+Package: xtemplate 2021-08-27 L3 Experimental prototype document functions
 \l__xtemplate_tmp_dim=\dimen140
 \l__xtemplate_tmp_int=\count196
 \l__xtemplate_tmp_muskip=\muskip16
@@ -228,6 +228,9 @@ Package fontspec Info: Font family 'SongtiSCLight(0)' created for font 'Songti
 
 ))) (/Users/sunyufei/Library/TinyTeX/texmf-dist/tex/latex/ctex/config/ctex.cfg
 File: ctex.cfg 2021/06/20 v2.5.7 Configuration file (CTEX)
+) (/Users/sunyufei/Library/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count286
 ) (/Users/sunyufei/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2021/04/20 v2.17j AMS math features
 \@mathmargin=\skip58
@@ -244,13 +247,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 ) (/Users/sunyufei/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count286
+\inf@bad=\count287
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count287
-\leftroot@=\count288
+\uproot@=\count288
+\leftroot@=\count289
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count289
-\DOTSCASE@=\count290
+\classnum@=\count290
+\DOTSCASE@=\count291
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -259,15 +262,15 @@ LaTeX Info: Redefining \cdots on input line 620.
 \big@size=\dimen176
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count291
-\c@MaxMatrixCols=\count292
+\macc@depth=\count292
+\c@MaxMatrixCols=\count293
 \dotsspace@=\muskip17
-\c@parentequation=\count293
-\dspbrk@lvl=\count294
+\c@parentequation=\count294
+\dspbrk@lvl=\count295
 \tag@help=\toks17
-\row@=\count295
-\column@=\count296
-\maxfields@=\count297
+\row@=\count296
+\column@=\count297
+\maxfields@=\count298
 \andhelp@=\toks18
 \eqnshift@=\dimen177
 \alignsep@=\dimen178
@@ -324,12 +327,8 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
-) (/Users/sunyufei/Library/TinyTeX/texmf-dist/tex/generic/iftex/ifxetex.sty
-Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
-(/Users/sunyufei/Library/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
+) (/Users/sunyufei/Library/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
-)) (/Users/sunyufei/Library/TinyTeX/texmf-dist/tex/generic/iftex/ifluatex.sty
-Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 )
 (/Users/sunyufei/Library/TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math
 .sty
@@ -339,9 +338,9 @@ Package: unicode-math 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLaTeX
 -xetex.sty
 Package: unicode-math-xetex 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLa
 TeX
-\g__um_fam_int=\count298
-\g__um_fonts_used_int=\count299
-\l__um_primecount_int=\count300
+\g__um_fam_int=\count299
+\g__um_fonts_used_int=\count300
+\l__um_primecount_int=\count301
 \g__um_primekern_muskip=\muskip18
 
 (/Users/sunyufei/Library/TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math
@@ -410,8 +409,8 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
 \@linkdim=\dimen183
-\Hy@linkcounter=\count301
-\Hy@pagecounter=\count302
+\Hy@linkcounter=\count302
+\Hy@pagecounter=\count303
 (/Users/sunyufei/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
 )
@@ -424,7 +423,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 ) (/Users/sunyufei/Library/TinyTeX/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count303
+\Hy@SavedSpaceFactor=\count304
 (/Users/sunyufei/Library/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
 )
@@ -437,7 +436,7 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count304
+\c@Hy@tempcnt=\count305
 (/Users/sunyufei/Library/TinyTeX/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip19
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
@@ -452,7 +451,7 @@ ty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count305
+\Fld@menulength=\count306
 \Field@Width=\dimen185
 \Fld@charsize=\dimen186
 Package hyperref Info: Hyper figures OFF on input line 6076.
@@ -468,9 +467,9 @@ LaTeX Info: Redefining \pageref on input line 6150.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count306
-\c@Item=\count307
-\c@Hfootnote=\count308
+\Hy@abspage=\count307
+\c@Item=\count308
+\c@Hfootnote=\count309
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 (/Users/sunyufei/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hxetex.def
@@ -481,10 +480,10 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
 \pdfm@box=\box55
-\c@Hy@AnnotLevel=\count309
-\HyField@AnnotCount=\count310
-\Fld@listcount=\count311
-\c@bookmark@seq@number=\count312
+\c@Hy@AnnotLevel=\count310
+\HyField@AnnotCount=\count311
+\Fld@listcount=\count312
+\c@bookmark@seq@number=\count313
 
 (/Users/sunyufei/Library/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilec
 heck.sty
@@ -503,15 +502,15 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip61
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 38.
+Package hyperref Info: Option `colorlinks' set `true' on input line 49.
 (/Users/sunyufei/Library/TinyTeX/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 (/Users/sunyufei/Library/TinyTeX/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count313
-\Gm@cntv=\count314
-\c@Gm@tempcnt=\count315
+\Gm@cnth=\count314
+\Gm@cntv=\count315
+\c@Gm@tempcnt=\count316
 \Gm@bindingoffset=\dimen187
 \Gm@wd@mp=\dimen188
 \Gm@odd@mp=\dimen189
@@ -527,17 +526,17 @@ Package: longtable 2021-05-07 v4.16 Multi-page Table package (DPC)
 \LTright=\skip63
 \LTpre=\skip64
 \LTpost=\skip65
-\LTchunksize=\count316
+\LTchunksize=\count317
 \LTcapwidth=\dimen195
 \LT@head=\box56
 \LT@firsthead=\box57
 \LT@foot=\box58
 \LT@lastfoot=\box59
 \LT@gbox=\box60
-\LT@cols=\count317
-\LT@rows=\count318
-\c@LT@tables=\count319
-\c@LT@chunks=\count320
+\LT@cols=\count318
+\LT@rows=\count319
+\c@LT@tables=\count320
+\c@LT@chunks=\count321
 \LT@p@ftn=\toks23
 ) (/Users/sunyufei/Library/TinyTeX/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
@@ -551,12 +550,12 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen259
 \cmidrulekern=\dimen260
 \defaultaddspace=\dimen261
-\@cmidla=\count321
-\@cmidlb=\count322
+\@cmidla=\count322
+\@cmidlb=\count323
 \@aboverulesep=\dimen262
 \@belowrulesep=\dimen263
-\@thisruleclass=\count323
-\@lastruleclass=\count324
+\@thisruleclass=\count324
+\@lastruleclass=\count325
 \@thisrulewidth=\dimen264
 ) (/Users/sunyufei/Library/TinyTeX/texmf-dist/tex/latex/tools/array.sty
 Package: array 2021/04/20 v2.5e Tabular extension package (FMi)
@@ -569,19 +568,16 @@ Package: array 2021/04/20 v2.5e Tabular extension package (FMi)
 \ar@cellbox=\box62
 ) (/Users/sunyufei/Library/TinyTeX/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count325
-\calc@Bcount=\count326
+\calc@Acount=\count326
+\calc@Bcount=\count327
 \calc@Adimen=\dimen267
 \calc@Bdimen=\dimen268
 \calc@Askip=\skip68
 \calc@Bskip=\skip69
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count327
+\calc@Ccount=\count328
 \calc@Cskip=\skip70
-) (/Users/sunyufei/Library/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count328
 ) (/Users/sunyufei/Library/TinyTeX/texmf-dist/tex/latex/mdwtools/footnote.sty
 Package: footnote 1997/01/28 1.13 Save footnotes around boxes
 \fn@notes=\box63
@@ -600,51 +596,133 @@ Package graphics Info: Driver file: xetex.def on input line 107.
 )
 \Gin@req@height=\dimen270
 \Gin@req@width=\dimen271
-) (/Users/sunyufei/Library/TinyTeX/texmf-dist/tex/latex/makecell/makecell.sty
+)
+\cslhangindent=\skip71
+\csllabelwidth=\skip72
+\cslentryspacingunit=\skip73
+(/Users/sunyufei/Library/TinyTeX/texmf-dist/tex/latex/makecell/makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 \rotheadsize=\dimen272
 \c@nlinenum=\count329
 \TeXr@lab=\toks25
-)
-\cslhangindent=\skip71
-\csllabelwidth=\skip72
-(./onlineLearning.aux)
+) (/Users/sunyufei/Library/TinyTeX/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip74
+\multirow@cntb=\count330
+\multirow@dima=\skip75
+\bigstrutjot=\dimen273
+) (/Users/sunyufei/Library/TinyTeX/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count331
+\mult@box=\box64
+\multicol@leftmargin=\dimen274
+\c@unbalance=\count332
+\c@collectmore=\count333
+\doublecol@number=\count334
+\multicoltolerance=\count335
+\multicolpretolerance=\count336
+\full@width=\dimen275
+\page@free=\dimen276
+\premulticols=\dimen277
+\postmulticols=\dimen278
+\multicolsep=\skip76
+\multicolbaselineskip=\skip77
+\partial@page=\box65
+\last@line=\box66
+\maxbalancingoverflow=\dimen279
+\mult@rightbox=\box67
+\mult@grightbox=\box68
+\mult@gfirstbox=\box69
+\mult@firstbox=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\c@minrows=\count337
+\c@columnbadness=\count338
+\c@finalcolumnbadness=\count339
+\last@try=\dimen280
+\multicolovershoot=\dimen281
+\multicolundershoot=\dimen282
+\mult@nat@firstbox=\box108
+\colbreak@box=\box109
+\mc@col@check@num=\count340
+) (/Users/sunyufei/Library/TinyTeX/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+\everycr=\toks26
+\minrowclearance=\skip78
+) (/Users/sunyufei/Library/TinyTeX/texmf-dist/tex/latex/tools/hhline.sty
+Package: hhline 2020/01/04 v2.04 Table rule package (DPC)
+) (./onlineLearning.aux)
 \openout1 = `onlineLearning.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 104.
+(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 115.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 104.
+(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 115.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 104.
+(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 115.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 104.
+(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 115.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 104.
+(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 115.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 104.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 115.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 104.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 115.
 
 Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
 
@@ -673,7 +751,7 @@ pt=math;language=dflt;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 104.
+(Font)              scaled to size 12.0pt on input line 115.
 
 Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
 
@@ -712,18 +790,18 @@ pt=math;language=dflt;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 104.
+(Font)              scaled to size 12.0pt on input line 115.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 104.
+(Font)              `operators' in the math version `normal' on input line 115.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input
- line 104.
+ line 115.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 104.
+(Font)              `operators' in the math version `bold' on input line 115.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on inpu
-t line 104.
+t line 115.
 
 Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
 
@@ -810,15 +888,15 @@ t=math;language=dflt;"
 (fontspec)             \fontdimen 21\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 104.
+(Font)              `symbols' in the math version `normal' on input line 115.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
 (Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on inpu
-t line 104.
+t line 115.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 104.
+(Font)              `symbols' in the math version `bold' on input line 115.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on inpu
-t line 104.
+t line 115.
 
 Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
 
@@ -888,17 +966,17 @@ pt=math;language=dflt;"
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
 (Font)              `largesymbols' in the math version `normal' on input line 1
-04.
+15.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on inpu
-t line 104.
+t line 115.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 104
+(Font)              `largesymbols' in the math version `bold' on input line 115
 .
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on inpu
-t line 104.
-Package hyperref Info: Link coloring ON on input line 104.
+t line 115.
+Package hyperref Info: Link coloring ON on input line 115.
 (/Users/sunyufei/Library/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 (/Users/sunyufei/Library/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
@@ -908,11 +986,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 string.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count330
+\c@section@level=\count341
 )
-LaTeX Info: Redefining \ref on input line 104.
-LaTeX Info: Redefining \pageref on input line 104.
-LaTeX Info: Redefining \nameref on input line 104.
+LaTeX Info: Redefining \ref on input line 115.
+LaTeX Info: Redefining \pageref on input line 115.
+LaTeX Info: Redefining \nameref on input line 115.
 (./onlineLearning.out) (./onlineLearning.out)
 \@outlinefile=\write3
 \openout3 = `onlineLearning.out'.
@@ -952,71 +1030,71 @@ LaTeX Info: Redefining \nameref on input line 104.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 106.
+(Font)              scaled to size 14.4pt on input line 117.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 106.
+(Font)              scaled to size 10.0pt on input line 117.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 106.
+(Font)              scaled to size 7.0pt on input line 117.
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-06.
+17.
 (/Users/sunyufei/Library/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 14.4013pt on input line 106.
+(Font)              scaled to size 14.4013pt on input line 117.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.00092pt on input line 106.
+(Font)              scaled to size 10.00092pt on input line 117.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.00064pt on input line 106.
+(Font)              scaled to size 7.00064pt on input line 117.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 14.39845pt on input line 106.
+(Font)              scaled to size 14.39845pt on input line 117.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 106.
+(Font)              scaled to size 9.99893pt on input line 117.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 106.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 106
+(Font)              scaled to size 6.99925pt on input line 117.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 117
 .
 (/Users/sunyufei/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 106
+LaTeX Font Info:    Trying to load font information for U+msb on input line 117
 .
 (/Users/sunyufei/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 106.
+(Font)              scaled to size 5.0pt on input line 117.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.00046pt on input line 106.
+(Font)              scaled to size 5.00046pt on input line 117.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 106.
+(Font)              scaled to size 4.99947pt on input line 117.
 [1
 
 ]
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 8.4pt on input line 121.
+(Font)              scaled to size 8.4pt on input line 131.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 121.
+(Font)              scaled to size 6.0pt on input line 131.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 12.0011pt on input line 121.
+(Font)              scaled to size 12.0011pt on input line 131.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.40076pt on input line 121.
+(Font)              scaled to size 8.40076pt on input line 131.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.00055pt on input line 121.
+(Font)              scaled to size 6.00055pt on input line 131.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 11.99872pt on input line 121.
+(Font)              scaled to size 11.99872pt on input line 131.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 8.3991pt on input line 121.
+(Font)              scaled to size 8.3991pt on input line 131.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 121.
+(Font)              scaled to size 5.99936pt on input line 131.
 File: ../figures/figure1.png Graphic file (type bmp)
 <../figures/figure1.png>
 LaTeX Font Info:    Font shape `TU/SongtiSCLight(0)/m/sl' in size <12> not avai
 lable
 (Font)              Font shape `TU/SongtiSCLight(0)/m/it' tried instead on inpu
-t line 129.
+t line 139.
 [2] [3]
-Underfull \hbox (badness 2197) in paragraph at lines 145--146
+Underfull \hbox (badness 2197) in paragraph at lines 155--156
 []\TU/SongtiSCLight(0)/m/n/12 信 号 机 制 是 在 反 思 灌 输 机 制 的 基 础 上 产 生 的，|  它 是 对 灌 
 输 理 论 的 补 充 而 非 替 代。|
  []
@@ -1035,19 +1113,508 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ../figures/figure3.png Graphic file (type bmp)
 <../figures/figure3.png>
 [10]
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica/B scale = 0.8128387852912245.
+
+
+Package fontspec Info: Helvetica/I scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica/BI scale = 0.8018053820824344.
+
+
+Package fontspec Info: Font family 'Helvetica(0)' created for font 'Helvetica'
+(fontspec)             with options
+(fontspec)             [Scale=MatchLowercase,Ligatures=TeX,Scale=1].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"Helvetica/AAT:mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"Helvetica/B/AAT:mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"Helvetica/I/AAT:mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"Helvetica/BI/AAT:mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+LaTeX Font Info:    Font shape `TU/Helvetica(0)/m/n' will be
+(Font)              scaled to size 11.0pt on input line 334.
+
+Package fontspec Info: Helvetica scale = 0.9999973374868539.
+
+
+Package fontspec Info: Helvetica scale = 0.9999973374868539.
+
+
+Package fontspec Info: Helvetica/B scale = 0.9825662920407693.
+
+
+Package fontspec Info: Helvetica/I scale = 0.9999973374868539.
+
+
+Package fontspec Info: Helvetica/BI scale = 0.9692290223685705.
+
+
+Package fontspec Info: Font family 'Helvetica(1)' created for font 'Helvetica'
+(fontspec)             with options [Scale=MatchLowercase].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.9999973374868539]"Helvetica/AAT"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9825662920407693]"Helvetica/B/AAT"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.9999973374868539]"Helvetica/I/AAT"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[0.9692290223685705]"Helvetica/BI/AAT"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  TU/lmr/m/n --> TU/Helvetica(1)/m/n on input line 334.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  TU/lmr/m/it --> TU/Helvetica(1)/m/it on input line 334.
+
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  TU/lmr/bx/n --> TU/Helvetica(1)/b/n on input line 334.
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+
+Package fontspec Info: Helvetica scale = 0.8272588095903724.
+
+[11]
 File: ../figures/figure4.png Graphic file (type bmp)
 <../figures/figure4.png>
-[11] [12] [13] [14] [15] (./onlineLearning.aux)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[12] [13] [14] [15] [16] [17] (./onlineLearning.aux)
 Package rerunfilecheck Info: File `onlineLearning.out' has not changed.
 (rerunfilecheck)             Checksum: FAB92998B0C5A2155286215D7268DFD4;1777.
  ) 
 Here is how much of TeX's memory you used:
- 20531 strings out of 478475
- 413891 string characters out of 5858192
- 876051 words of memory out of 5000000
- 40518 multiletter control sequences out of 15000+600000
- 412628 words of font info for 106 fonts, out of 8000000 for 9000
+ 21232 strings out of 478472
+ 424172 string characters out of 5860372
+ 895016 words of memory out of 5000000
+ 41193 multiletter control sequences out of 15000+600000
+ 412724 words of font info for 118 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 90i,11n,120p,995b,537s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 90i,12n,128p,1209b,537s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on onlineLearning.pdf (15 pages).
+Output written on onlineLearning.pdf (17 pages).

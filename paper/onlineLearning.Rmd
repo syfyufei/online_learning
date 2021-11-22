@@ -6,7 +6,7 @@ output:
     latex_engine: xelatex
     number_sections: true
   bookdown::word_document2:
-    reference_docx: "template_CHN.docx"
+    # reference_docx: "template_CHN.docx"
     keep_md: true
     number_sections: FALSE
 knit: (function(inputFile, encoding) {rmarkdown::render(inputFile, encoding = encoding, output_format = c("bookdown::word_document2", "bookdown::pdf_document2")) })
@@ -18,7 +18,7 @@ header-includes:
 fontsize: 12pt
 geometry: margin=1in
 bibliography: online_learning.bib
-csl: "china-national-standard-gb-t-7714-2015-author-date.csl"
+# csl: "china-national-standard-gb-t-7714-2015-author-date.csl"
 link-citations: true
 colorlinks: true
 toc: false
@@ -78,6 +78,15 @@ data <- qread("../data/paperdata.qs")
 \newpage
 
 # 引言
+
+
+
+
+
+
+
+
+
 
 政治宣传是维持统治合法性和提升公众支持的的重要手段之一 [@DukalskisGerschewski2017] ，它通过直接影响公民对政府的偏好或信念来影响他们的政治行为 [@HuangCruz2021] ，在非西方式选举民主的政权中尤为明显 [@BleckMichelitch2017; @AdenaEtAl2015 ]。在政治宣传对公民的影响上，现有研究主要包括"灌输"和"信号"两个机制。无论是经典文献 [@Lippmann1922; @Lasswell1927; @White2000] 还是最新的研究 [@PanEtAl2020; @RozenasStukal2019; @GurievTreisman2020]，都将灌输视为宣传的主要手段，并认为宣传通过说服公民了解政府或其政策的优点，从而增加公民对政权的支持。另一方面，"信号"效应成为最近政治宣传研究的重点，@Huang2015a 和 @CarterCarter2021 等学者认为宣传是一种信号，即宣传不一定会影响公众的政治支持，但能够使公众感受到国家的能力，从而管理他们参与抗议的前景，减少他们的提出异议的倾向。现
 有研究为我们提供了坚实的研究基础，但仍存在较大的学术推进空间。首先，灌输机制有效的前提是公众被灌输的内容说服，但是现有研究在宣传的说服机制上缺乏解释力；信号机制提出了新的解释视角，但其将能力感知仅仅限于国家的强制能力，而没有考虑宣传对公众其他方面国家能力的感知和对其行为的影响。
@@ -297,8 +306,8 @@ plot_SA <- {
     relabel_predictors(names_coef) + 
     theme_bw() + 
     xlab("Coefficient Estimate") + 
-    scale_color_gb(reverse = TRUE) + 
-    theme(text = element_text(family='SimSun', face = "bold", colour = "black"), axis.title.x = element_text(family='Times', hjust = 0.5), legend.text = element_text(family='SimSun', size = 10)) + 
+#    scale_color_gb(reverse = TRUE) + 
+    theme(text = element_text(family='SimSong', face = "bold", colour = "black"), axis.title.x = element_text(family='Times', hjust = 0.5), legend.text = element_text(family='SimSong', size = 10)) + 
     geom_vline(aes(xintercept=0), colour = "grey60", linetype = 2)
 }
 
@@ -315,11 +324,17 @@ knitr::include_graphics("../figures/figure3.png")
 
 为了测量思想政治课的宣传效果，笔者在对受访学生施加六种不同的刺激后，分别从认同感知、能力感知和思政课喜好三个影响维度测量了思政课的宣传效果。并借助析因实验设计和回归分析，检验三种思政课内容和两种教师呈现方式对思政课教学效果的影响。
 
-```{R, eval = FALSE}
+```{R}
 names_coef <- c(
-  "same_Handon" = "实践内容（课程思政）",
-  "same_newswire" = "宣传内容（思政课程）",
-  "`presentation_teacher&slides`" = "教师呈现与演示文稿"
+  "same_Handon" = "实践导向",
+  "same_newswire" = "宣传导向",
+  "`presentation_teacher&slides`" = "教师呈现与演示文稿",
+  "gender" = "性别",
+  "political_status" = "政治面貌",
+  "major" = "专业",
+  "grade" = "成绩",
+  "YoB" = "年龄",
+  "university_like" = "学校偏好"
 )
 
 # m9 <- lm(SA ~ same_Handon + same_newswire + `presentation_teacher&slides` + num_civics + gender + political_status + major + grade + GPA + YoB + university_like, data = data)
@@ -331,6 +346,19 @@ m9 <- lm(arm::rescale(SA) ~ same_Handon + same_newswire + `presentation_teacher&
 m10 <- lm(arm::rescale(direct_Government_satisfaction) ~ same_Handon + same_newswire + `presentation_teacher&slides` + num_civics + gender + political_status + major + grade + GPA + YoB + university_like,  data = data)
 m11 <- lm(arm::rescale(direct_Government_trust) ~ same_Handon + same_newswire + `presentation_teacher&slides` + num_civics + gender + political_status + major + grade + GPA + YoB + university_like,  data = data)
 m12 <- lm(arm::rescale(like_civics) ~ same_Handon + same_newswire + `presentation_teacher&slides` + num_civics + gender + political_status + major + grade + GPA + YoB + university_like,  data = data)
+
+models <- list()
+models[["能力感知"]] <- m9
+models[["政府满意度"]] <- m10
+models[["政府信任度"]] <- m11
+models[["课程喜好"]] <- m12
+
+msummary(models,
+         output = "flextable",
+         coef_map = names_coef,
+         stars = TRUE,
+         title = "网络思政课呈现内容和呈现方式对思政课教学效果的影响"
+         )
 
 rm9 <- broom::tidy(m9) %>% 
   filter(!str_detect(term, "num_civics|gender|political_status|major|grade|GPA|YoB|university_like"))%>% 
@@ -353,17 +381,119 @@ plot_DoEs <- {
          vline = geom_vline(
            xintercept = 0,
            colour = "grey60",
-           linetype = 2
+           linetype = 3,
          )) %>%
     relabel_predictors(names_coef) + 
     theme_bw() + 
     xlab("Coefficient Estimate") + 
-    scale_color_gb(reverse = TRUE) + 
-    theme(text = element_text(family='SimSun', face = "bold", colour = "black"), axis.title.x = element_text(family='Times'), ) + 
+#    scale_color_gb(reverse = TRUE) + 
+    theme(text = element_text(family='SimSong', face = "bold", colour = "black"), axis.title.x = element_text(family='Times'), ) + 
     geom_vline(aes(xintercept=0), colour = "grey60", linetype = 2)
 }
 
 ggsave("../figures/figure4.png", plot_DoEs, width = 8, height = 4.5)
+
+plot_DoEs <- {
+  dwplot(rbind(rm10, rm11),
+         vline = geom_vline(
+           xintercept = 0,
+           colour = "grey60",
+           linetype = 3,
+         ),
+         dot_args = list(aes(shape = model)),
+    whisker_args = list(aes(linetype = model))
+         ) %>%
+    relabel_predictors(names_coef) + 
+    theme_bw() + 
+    xlab("回归系数（国家能力综合感知）") + 
+    theme(text = element_text(family='SimSong', face = "bold", colour = "black"), axis.title.x = element_text(family='SimSong'), ) + 
+    geom_vline(aes(xintercept=0), colour = "grey60", linetype = 2) + 
+    scale_colour_grey(
+        start = .1,
+        end = .1,
+        # if start and end same value, use same colour for all models
+        name = "模型",
+        labels = c("中央政府施政满意度", "中央政府信任")
+    ) +
+    scale_shape_discrete(
+        name = "模型",
+        labels = c("中央政府施政满意度", "中央政府信任")
+    ) + 
+    guides(
+        shape = guide_legend("模型"), 
+        colour = guide_legend("模型"))
+}
+
+ggsave("../figures/Model1.png", plot_DoEs, width = 8, height = 4.5)
+
+ 
+
+plot_DoEs <- {
+  dwplot(rbind(rm12),
+         vline = geom_vline(
+           xintercept = 0,
+           colour = "grey60",
+           linetype = 3,
+         ),
+         dot_args = list(aes(shape = model)),
+    whisker_args = list(aes(linetype = model))
+         ) %>%
+    relabel_predictors(names_coef) + 
+    theme_bw() + 
+    xlab("回归系数（思政课偏好）") + 
+    theme(text = element_text(family='SimSong', face = "bold", colour = "black"), axis.title.x = element_text(family='SimSong'), ) + 
+    geom_vline(aes(xintercept=0), colour = "grey60", linetype = 2) + 
+    scale_colour_grey(
+        start = .1,
+        end = .1,
+        # if start and end same value, use same colour for all models
+        name = "模型",
+        labels = c("思政课偏好")
+    ) +
+    scale_shape_discrete(
+        name = "模型",
+        labels = c("思政课偏好")
+    ) + 
+    guides(
+        shape = guide_legend("模型"), 
+        colour = guide_legend("模型")) + 
+    theme(legend.position = "none")
+}
+
+ggsave("../figures/Model3.png", plot_DoEs, width = 8, height = 4.5)
+
+plot_DoEs <- {
+  dwplot(rbind(rm9, rm10, rm11, rm12),
+         vline = geom_vline(
+           xintercept = 0,
+           colour = "grey60",
+           linetype = 3,
+         ),
+         dot_args = list(aes(shape = model)),
+    whisker_args = list(aes(linetype = model))
+         ) %>%
+    relabel_predictors(names_coef) + 
+    theme_bw() + 
+    xlab("回归系数（教学效果）") + 
+    theme(text = element_text(family='SimSong', face = "bold", colour = "black"), axis.title.x = element_text(family='SimSong'), ) + 
+    geom_vline(aes(xintercept=0), colour = "grey60", linetype = 2) + 
+    scale_colour_grey(
+        start = .1,
+        end = .1,
+        # if start and end same value, use same colour for all models
+        name = "模型",
+        labels = c("国家能力综合感知", "中央政府施政满意度", "中央政府信任", "课程偏好")
+    ) +
+    scale_shape_discrete(
+        name = "模型",
+        labels = c("国家能力综合感知", "中央政府施政满意度", "中央政府信任", "课程偏好")
+    ) + 
+    guides(
+        shape = guide_legend("模型"), 
+        colour = guide_legend("模型"))
+}
+
+ggsave("../figures/Model.png", plot_DoEs, width = 8, height = 4.5)
 ```
 
 ```{R, fig.cap="政治宣传的影响因素", out.width = '100%', fig.pos="h"}

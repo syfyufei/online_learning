@@ -6,7 +6,7 @@ institute: "Tsinghua University & MoE"
 date: "`r Sys.Date()`"
 output:
   xaringan::moon_reader:
-    self_contained: true
+    self_contained: no
     lib_dir: libs
     css: 
       - default
